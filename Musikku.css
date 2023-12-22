@@ -1,0 +1,163 @@
+body{
+    margin: auto;
+    padding: 0%;
+}
+.tombol-atas{
+    background-color: blueviolet;
+    height: 37px;
+    width: auto;
+}
+.tbl-atas {
+    background-color: transparent;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    margin-right: 8px;
+    float: right;
+}
+.tbl-1 {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.scroll-1{
+    background-color: #00abff;
+    width: auto;
+    height: 640px;
+    overflow-y: scroll;
+    margin: 0px;
+    padding: 1px;
+    display: inline-table;
+}
+.sc-1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    background-color: whitesmoke;
+    text-align: justify;
+    border-radius: 5px;   
+    animation: naik 2s ease alternate;
+    
+}
+.jd-c{
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;    
+}
+.ORg{
+    height: 25px;
+    background-color: green;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    border-top-left-radius: 17px;
+    animation: ledOrg 2s ease infinite;
+}
+.or-1{
+    display: grid;
+    margin-top: -5px;
+    padding-left: 28px;
+    padding-bottom: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: or1 2s ease infinite;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 17px;
+}
+.or-1,.ul1{
+    display: grid;
+    margin-top: 0px;
+    padding-left: 8px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lsty{
+    text-decoration: none;
+}
+.pbm{
+    background-color: whitesmoke;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: justify;
+    border-radius: 5px;
+}
+.penutup{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.ptn{
+    text-decoration: none;
+    color: black;
+}
+/* ===============================> */
+/* keyframe */
+@keyframes naik {
+    from{
+        margin-top: 90px;
+    }
+    to{
+        margin-top: 10px;
+    }
+    from{
+     opacity: 25%;
+    }
+    55%{opacity: 55%;}
+    75%{opacity: 75%;}
+    to{
+      opacity: 100%;  
+    }
+}
+@keyframes ledOrg {
+    from{
+       border: 2px solid #00ff18; 
+    }
+    25%{
+        border: 2px solid #00ffff;
+    }
+    55%{
+        border: 2px solid #002dff;
+    }
+    75%{
+        border: 2px solid #ce00ff;
+    }
+    to{
+        border: 2px solid #ff000a;
+    }
+}
+@keyframes or1 {
+    from{
+       border: 2px solid #00ff18; 
+    }
+    25%{
+        border: 2px solid #00ffff;
+    }
+    55%{
+        border: 2px solid #002dff;
+    }
+    75%{
+        border: 2px solid #ce00ff;
+    }
+    to{
+        border: 2px solid #ff000a;
+    }
+}
+/* ===============================> */
