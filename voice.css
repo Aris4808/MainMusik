@@ -1,0 +1,141 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: seagreen;
+}
+.tombol_atas{
+    background-color: blueviolet;
+    height: 37px;
+    width: auto;
+}
+.tombol{
+    padding: 7px;
+    float: right;
+}
+.btn-1{
+    text-decoration: none;
+    color: white;
+}
+.sambutan{
+    background-color: transparent;
+    animation: muncul 2s ease alternate;
+}
+.A{
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 6px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: justify;
+}
+.instrument{
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    padding: 5px;
+    border-radius: 6px;
+    text-align: justify;
+    animation: muncul 3s ease alternate ;
+}
+.F1{
+    text-decoration: none;
+}
+.instrument, li{
+    padding-left: -1px;
+    margin-left: 9px;
+}
+.link-1{
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    padding: 4px;
+    border-radius: 6px;
+    height: 100px;
+    animation: timbul 2s ease alternate;
+}
+.rev1{
+    text-align: center;
+    margin-top: 5px;
+}
+.rev-a{
+    text-decoration: none;
+    background-color: royalblue;
+    border-radius: 30px;
+    padding: 8px;
+    margin: 7px;
+    cursor: pointer;
+    color: white;
+    animation: link 3s ease infinite;
+}
+.penjelasan1 {
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    text-align: justify;
+    padding: 3px;
+    border-radius: 5px;
+}
+.p2{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    text-align: justify;
+    padding: 3px;
+    border-radius: 5px;
+}
+.pas{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    
+}
+.linkpas{
+    background-color: blue;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+/* keyframes */
+@keyframes link {
+from{
+    border: 2px solid #00ff03;
+}
+    25%{
+        border: 2px solid #00ffff;
+    }
+    55%{
+        border: 2px solid #002dff;
+    }
+    75%{
+        border: 2px solid #a400ff;
+    }
+    to{
+        border: 2px solid #ff00dc;
+    }
+}
+@keyframes muncul {
+    from{
+        opacity: 38%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+@keyframes timbul {
+    from{
+        margin: 30px;
+    }
+    to{
+        margin: 7px;
+    }
+}
+/* end  */
